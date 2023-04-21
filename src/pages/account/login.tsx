@@ -1,6 +1,6 @@
 import { Auth } from '@supabase/auth-ui-react'
 import { ThemeSupa } from '@supabase/auth-ui-shared'
-import supabase from "../../../client"
+import supabase from "../../../config/client"
 import { useSession, useSupabaseClient, useUser } from "@supabase/auth-helpers-react"
 import { useEffect } from "react"
 import router from "next/router"

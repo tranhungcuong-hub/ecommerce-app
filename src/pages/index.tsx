@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import ProductCard from '@/components/product-card';
-import supabase from '../../client';
+import supabase from '../../config/client';
 import { useEffect, useState } from 'react';
 import Navbar from '@/components/navBar';
 
